@@ -1,0 +1,40 @@
+#abs{
+    height:200px;
+    width:900px;
+    background-color: aquamarine;
+    position: absolute;
+    left:20px;
+    top:500px;
+}
+#abss{
+    height:1000px;
+    width:400px;
+    background-color: black;
+    position: absolute;
+
+    right:0px;
+    top:500px;
+}
+#ptg{
+    position: absolute;
+    top:600px;
+    left:20px;
+}
+#rel{
+    height: 200px;
+    width:100px;
+    background-color: brown;
+    position:relative;
+    top:20px;
+    left:50px;
+}
+#fix{
+    height:100px;
+    width:100px;
+    background-color: yellow;
+    border-radius: 20px;
+    position: fixed;
+    right:0px;
+    top:20px;
+    
+}

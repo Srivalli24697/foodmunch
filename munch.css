@@ -1,0 +1,453 @@
+#bar{
+    height:100px;
+    width:1000px;
+    background-color: azure;
+    margin:auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#logo{
+    height:100px;
+    width:100px;
+    background-image:url(https://www.ocado.com/productImages/612/612188011_0_640x640.jpg?identifier=f7751be009ea6d59b77d91a32a39cfa9);
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+#options{
+    height:200px;
+    width:1000px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding:10px 15px 10px 15px;
+    margin: auto;
+    gap: 10px;
+
+
+}
+.opt{
+    height:90px;
+    width:300px;
+    color:black;
+    font-size:15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    align-items: center;
+
+}
+#main{
+    height: 500px;
+    width:1500px;
+    background-image:url(https://rs-menus-api.roocdn.com/images/c96e6fd1-68d4-418c-b8bb-51756691c10a/image.jpeg);
+    background-position: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin:auto;
+}
+#m1{
+    color: azure;
+    font-size:35px;
+    font-family:cursive;
+
+}
+#m2{
+    color: azure;
+    font-size: 18px;
+    font-family: cursive;
+
+}
+#m3button{
+    padding: 10px 20px 10px 20px;
+    border:none;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    border-radius: 5px;
+}
+#qq{
+    height:100px;
+    width:1300px;
+    flex-direction: column;
+    align-items: left;
+    margin:50px;
+}
+#q1{
+    color:black;
+    font-size:30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#q2{
+    color:rgb(108, 93, 93);
+    font-size: 14px;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p{
+
+}
+
+#list{
+    height:400px;
+    width:1500px;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin:50px;
+
+}
+#l1{
+    height:250px;
+    width:300px;
+    color:black;
+    font-size: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#l2{
+
+    height:250px;
+    width:300px;
+    background-color:white;
+    color:black;
+    font-size: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+#l3{
+    height:250px;
+    width:300px;
+    color:black;
+    font-size: 10px;
+    padding:0px 30px 0px 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+h1{
+    color:black;
+    font-size: 30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    display:flex ;
+    align-items: center;
+    padding:0px 49px 0px 49px;
+}
+p{
+    color: black;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.img{
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    margin:auto;
+}
+#e{
+    height:10px;
+    width:1400px;
+    background-color: white;
+    font-size:30px ;
+    font-family:sans-serif;
+    padding:0px 0px 0px 30px;
+    
+}
+#bigbox{
+    height:450px;
+    width:1400px;
+    background-color: white;
+    border:1px solid  white;
+    margin:50px;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    justify-content: space-between;
+}
+.smallbox{
+    height:200px;
+    width:200px;
+    background-color:azure;
+    border:2px ridge white;
+    border-radius: 15px;
+    font-size: 20px;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+#s1{
+    background-image: url(https://tse2.mm.bing.net/th/id/OIP.k4QspXtkPc14b4sqoRXnYgHaE8?pid=Api&P=0&h=180https://d1tgh8fmlzexmh.cloudfront.net/ccbp-responsive-website/em-ginger-fried-img.png);
+    background-size: contain;
+    background-repeat:no-repeat;
+}
+#s2{
+   
+ background-image:url(https://tse1.mm.bing.net/th/id/OIP.prjk7qsQ4GsX2MXD31AFYQHaEK?pid=Api&P=0&h=180);
+    background-size: contain;
+    align-items:center;
+    background-repeat: no-repeat;
+
+}
+#s3{
+ background-image: url(https://tse3.mm.bing.net/th/id/OIP.OliyiIc_u-5FZ2bUuat2AQHaE9?pid=Api&P=0&h=180);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#s4{
+     background-image: url(https://tse3.mm.bing.net/th/id/OIP.vbuMyOiDeKNpKwgtUu6bpQHaEo?pid=Api&P=0&h=180);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#s5{
+     background-image:url(https://tse1.mm.bing.net/th/id/OIP.bRseFQTi_nGLjjbI7KsbEgHaE8?pid=Api&P=0&h=180);
+    background-size:contain;
+    background-position: top;
+    background-repeat:no-repeat;
+}   
+#s6{
+     background-image: url(https://tse4.mm.bing.net/th/id/OIP.-jsAfGKUfjOdfgfHkl7mGwHaEJ?pid=Api&P=0&h=180);
+    background-size:contain;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+#s7{
+     background-image: url(https://tse1.mm.bing.net/th/id/OIP.0zxxb65O2wk2OJaPndjihgHaE8?pid=Api&P=0&h=180);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#s8{
+     background-image: url(https://tse4.mm.bing.net/th/id/OIP.frG-KYop9_bzEn9UjIWuvwHaEK?pid=Api&P=0&h=180);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+h3{
+    color:black;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;
+    display:flex ;
+    align-items: last baseline;
+    padding:120px 0px 0px 10px;
+
+}
+h5{
+    color:rgb(156, 156, 249);
+    font-size: 15px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display:flex ;
+    align-items: last baseline;
+    padding:0px 0px 2px 10px;
+    margin: auto;
+
+}
+#text{
+    height:300px;
+    width:1500px;
+    background-color: azure;
+    margin:auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+
+}  
+#t1{
+    height:300px;
+    width:300px ;
+    background-image:url(https://tse2.mm.bing.net/th/id/OIP.kTkwr7tGcOYnPf0u8vE0BQHaHa?pid=Api&P=0&h=180);
+    background-size: cover;
+    background-position: center;
+    padding-left: 70px;
+
+}  
+#t2{
+    height: 300px;
+    width:600px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+#t3{
+    height:20px;
+    width:70px;
+    font-size: 8px;
+    color: black;
+    border:2px solid gray;
+    background-color: yellow;
+
+}
+#Delivery{
+    height:300px;
+    width:1500px;
+    background-color: azure;
+    margin:auto;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+#d1{
+    height: 300px;
+    width:600px;
+    padding-left:10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#imgg{
+     height:300px;
+    width:300px ;
+    background-image:url(https://tse2.mm.bing.net/th/id/OIP.WZpHxFl6GlX_Nl8ggSfxYQHaFZ?pid=Api&P=0&h=180);
+    background-size: cover;
+    background-position: center;
+    padding-left: 70px;
+    padding-top: 0px;
+}
+#o{
+    height:20px;
+    width:70px;
+    font-size: 8px;
+    color: black;
+    border:2px solid gray;
+    background-color: yellow;
+}
+#pay{
+    height:100px;
+    width:500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left:100px;
+}
+#p1{
+    height:80px;
+    width:250px;
+    background-image: url(https://tse2.mm.bing.net/th/id/OIP.Y6-wJg-HiIJqiI8nok881AHaFr?pid=Api&P=0&h=180);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}   
+#p2{
+    height:80px;
+    width:250px;
+    background-image: url(https://tse1.mm.bing.net/th/id/OIP.08pbRxr6BpSE6zsBpVVN_wHaFj?pid=Api&P=0&h=180);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+#p3{
+    height:80px;
+    width:100px;
+    background-image: url(https://tse1.mm.bing.net/th/id/OIP.ScTnBlLkcwzEjHzEUzkJ1QHaFj?pid=Api&P=0&h=180);
+     background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#p4{
+    height:80px;
+    width:100px;
+    background-image: url(https://tse2.mm.bing.net/th/id/OIP.tuYalZe2SOHuvjtZkDDJ5gHaFf?pid=Api&P=0&h=180);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+#yellow{
+     height:180px;
+    width:1500px;
+    background-color:rgb(254, 254, 48);
+    margin:auto;
+    display: flex;
+}
+#y1{
+    height: 100px;
+    width:1200px;
+    padding:0px 0px 0px 20px;
+    display: flex;
+    flex-direction:column;
+    justify-content: left;
+}
+h1{
+    font-size: 29px;
+    font-family: serif;
+}
+p{
+    padding:0px 0px 0px 50px;
+}
+#y13{
+    height:20px;
+    width:70px;
+    font-size: 8px;
+    color:white;
+    border:2px solid gray;
+    background-color: maroon;
+    margin-left: 70px;
+}
+#gif{
+ height:150px;
+    width:250px ;
+    background-image:url(https://tse2.mm.bing.net/th/id/OIP.8Xmk6pO-D1TP1aZfqwIpzwHaH1?pid=Api&P=0&h=180);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding-left: 600px; 
+    margin:center;
+}
+#follow{
+    height:50px;
+    width:1500px;
+    background-color: azure;
+    margin-left: 750px;
+
+}
+#circles{
+    height:100px;
+    width:500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left:600px;
+    
+}
+.cc{
+    height: 50px;
+    width:50px;
+    border:2px solid black;
+    border-radius: 50px;
+}
+#c1{
+    background-image:url(https://tse3.mm.bing.net/th/id/OIP.fNdYnbLL5ZOf4A7isn_kbwHaHa?pid=Api&P=0&h=180) ;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#c2{
+    background-image: url(https://tse1.mm.bing.net/th/id/OIP.5LtiuAjxyDaj8-YoXMmvowHaHZ?pid=Api&P=0&h=180);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#c3{
+    background-image:url(https://tse1.mm.bing.net/th/id/OIP.0ZzsExBLkRl3AduCcB-irgHaEK?pid=Api&P=0&h=180);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+#contact{
+    height: 250px;
+    width:1500px;
+    background-color: rgb(211, 206, 206); 
+    display: flex;
+    flex-direction: row;
+    
+}
+#pic{
+    height:100px;
+    width:700px;
+    background-image:url(https://tse2.mm.bing.net/th/id/OIP.fZPkUpOGU9j-CowgyAVrKAHaFO?pid=Api&P=0&h=180);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin:auto;
+}
+#phneno{
+    font-size: 20px;
+    font-family: serif;
+    padding-right: 400px;
+    padding-top: 1px;
+}
